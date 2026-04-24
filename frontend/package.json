@@ -1,0 +1,33 @@
+{
+  "name": "picopet-frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "description": "PicoPet frontend — Vue 3 + Vite + TypeScript",
+  "scripts": {
+    "dev": "vite",
+    "lint": "eslint . && prettier --check .",
+    "lint:fix": "eslint . --fix && prettier --write .",
+    "typecheck": "vue-tsc --noEmit",
+    "prebuild": "npm run lint && npm run typecheck",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.5.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.0",
+    "@vue/eslint-config-prettier": "^10.1.0",
+    "@vue/eslint-config-typescript": "^14.2.0",
+    "eslint": "^9.17.0",
+    "eslint-plugin-vue": "^9.32.0",
+    "prettier": "^3.4.0",
+    "typescript": "~5.7.0",
+    "vite": "^6.0.0",
+    "vue-tsc": "^2.2.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

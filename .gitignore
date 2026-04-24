@@ -1,0 +1,17 @@
+# Node
+node_modules
+npm-debug.log*
+
+# Rust
+target
+Cargo.lock.bak
+
+# Editor / OS
+.DS_Store
+.idea
+.vscode/*
+!.vscode/extensions.json
+*.log
+
+# Claude Code local settings
+.claude/settings.local.json
